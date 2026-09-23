@@ -1,8 +1,9 @@
-function maximum(a, b) { 
-    if (a > b){ 
-        return a;
-    } else{ 
-        return b;
-    }
+function minimum(a, b) { 
+   if (a < b){ 
+       return a;
+   } else { 
+       return b;
+   }
 }
-console.log(maximum(8, 5));
+let num = minimum(10,17);
+console.log("trouv le minimum :" +num);
