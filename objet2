@@ -1,0 +1,7 @@
+let etudiant = {
+    nom: "Martin",
+    prenom: "Sophie",
+    notes: [14, 16, 12, 18, 15] // La valeur est un tableau !
+};
+console.log(`Étudiant : ${etudiant.prenom} ${etudiant.nom}`);
+console.log("Liste des notes : " + etudiant.notes.join(", "));
