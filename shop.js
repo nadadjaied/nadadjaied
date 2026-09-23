@@ -1,5 +1,8 @@
-function multiplication(a, b){ 
-    return a* b;
- } 
- let resultat = multiplication(5,4);
- console.log("le multiplication est : " +resultat);
+function maximum(a, b) { 
+    if (a > b){ 
+        return a;
+    } else{ 
+        return b;
+    }
+}
+console.log(maximum(8, 5));
